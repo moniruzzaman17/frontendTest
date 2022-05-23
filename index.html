@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rokomari Frontend Coding Test</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container-fluid main-wrapper">
+        <div class="container-fluid header-wrapper d-flex">
+            <div class="headerleftorrange"></div>
+            <!-- <div class="header-main-wrapper d-flex justify-content-between align-items-center">
+                <h6 class="header-title m-0">Company</h6>
+            </div> -->
+            <nav class="navbar navbar-expand-lg w-100">
+                <a class="navbar-brand header-title" href="#">Company</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fa fa-navicon" style="color:#fff; font-size:28px;"></i>
+                    </span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto d-flex align-items center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Page
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Submenu</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Service
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Submenu</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link contact-btn" href="#"><span class="int-title">Contact</span><div class="int-circle"></div></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="slider-wrapper">
+            <div class="sliderlefttopgph1"></div>
+            <div class="sliderlefttopgph2"></div>
+            <div class="sliderlefttopgph3"></div>
+            <div class="slider-btn-wrapper">
+                <a href="" class="slider-btn d-flex justify-content-center align-items-center">
+                    <span class="slider-int-title">Get Started Now</span>
+                    <div class="slider-int-circle"></div>
+                </a>
+                <a href="" class="slider-btn service-btn d-flex justify-content-center align-items-center">
+                    <span class="slider-int-title">Our Services</span>
+                    <div class="slider-int-circle"></div>
+                </a>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <!-- <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol> -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="/assets/images/banner1.jpg" alt="First slide"><div class="carousel-caption d-none d-md-block">
+                            <div class="caption">
+                                <p class="small-cap">Business & Consulting</p>
+                                <h3>Making Difference Growth Your Business With Modern Ideas</h3>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="/assets/images/banner1.jpg" alt="Second slide"><div class="carousel-caption d-none d-md-block">
+                            <div class="caption">
+                                <p class="small-cap">Business & Consulting</p>
+                            <h3>Making Difference Growth Your Business With Modern Ideas</h3>
+                            
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a> -->
+            </div>
+        </div>
+        <div class="aboutus-wrapper wrapper">
+            <div class="container aboutus-container">
+                <div class="row w-100 m-auto p-0">
+                    <div class="col-12 col-sm-12 col-md-6">
+                        <img class="magnatic-hover" src="/assets/images/aboutus.png" alt="">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6">
+                        <p class="block-title"> About Us</p>
+                        <h4>Professional Business
+                        Guidance Agency</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                        dummy text ever since
+                        Unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <ul class="orng-bullet">
+                            <li>
+                                Business & Consulting Agency
+                            </li>
+                            <li>Business & Consulting Agency</li>
+                        </ul>
+                        <a href="" class="primary-btn">
+                            <span class="slider-int-title">Learn More</span>
+                            <div class="slider-int-circle"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- end of about us section -->
+        <!-- company service -->
+        <div class="company-service-wrapper wrapper">
+            <div class="servicelefttopgph1"></div>
+            <div class="servicelefttopgph2"></div>
+            <img class="vector-dotted" src="/assets/images/vector4.png" alt="" srcset="">
+            <img class="vector-union" src="/assets/images/union.png" alt="" srcset="">
+            <div class="container">
+                <p class="service-title text-center">Company Service
+                </p>
+                <h4 class="text-center w-50 m-auto">We Provide Most Exclusive
+                Service for Business</h4>
+                <div class="row m-auto p-0 service-row">
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <div class="service-box">
+                            <img class="service-box-icon" src="/assets/images/vector1.png" alt="" srcset="">
+                            <h6>Creative Idea</h6>
+                            <p>It is a long established fact that a reader will be distracted</p>
+                            <img src="/assets/images/Vector.png" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <div class="service-box">
+                            <img class="service-box-icon" src="/assets/images/vector2.png" alt="" srcset="">
+                            <h6>Business Strategy</h6>
+                            <p>It is a long established fact that a reader will be distracted</p>
+                            <img src="/assets/images/Vector.png" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <div class="service-box">
+                            <img class="service-box-icon" src="/assets/images/vector3.png" alt="" srcset="">
+                            <h6>Relationship Buildup</h6>
+                            <p>It is a long established fact that a reader will be distracted</p>
+                            <img src="/assets/images/Vector.png" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of company service -->
+        <!-- video -->
+        <div class="video-wrapper">
+            <video class="video w-100 playerembed" playsinline muted loop>
+                <source src="/assets/video/video.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+            <div class="caption video-caption">
+                <p class="video-cap">Watch Video</p>
+                <h3>Exclusive Video Presentation
+                About Recent Project</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                <a href="" class="primary-btn"><span class="primary-int-title">Need Any Projects</span>
+                <div class="primary-int-circle"></div></a>
+            </div>
+            <a id="play-video" class="video-play-button" href="#">
+                <span></span>
+            </a>
+        </div>
+        <!-- end of video -->
+
+        <!-- feature wrapper -->
+        <div class="feature-wrapper">
+            <div class="wrapper">
+                <div class="container">
+                    <p class="block-title feature-title text-center">Our Core Features</p>
+                    <h4 class="text-center">We are Specialist for Many
+                        Business Solutions</h4>
+                    <div class="row m-auto p-0 feature-row">
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="feature-box">
+                                <div class="featurelefttopgph1"></div>
+                                <div class="featurelefttopgph2"></div>
+                                <img class="w-100" src="/assets/images/banner3.png" alt="" srcset="">
+                                <div class="feature-caption">
+                                    <img src="/assets/images/VectorW.png" alt="" srcset="">
+                                    <h6>Free Consulting</h6>
+                                    <p>Join us for consultatoins</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="feature-box">
+                                <div class="featurelefttopgph1"></div>
+                                <div class="featurelefttopgph2"></div>
+                                <img class="w-100" src="/assets/images/banner3.png" alt="" srcset="">
+                                <div class="feature-caption">
+                                    <img src="/assets/images/VectorW.png" alt="" srcset="">
+                                    <h6>Free Consulting</h6>
+                                    <p>Join us for consultatoins</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="feature-box">
+                                <div class="featurelefttopgph1"></div>
+                                <div class="featurelefttopgph2"></div>
+                                <img class="w-100" src="/assets/images/banner3.png" alt="" srcset="">
+                                <div class="feature-caption">
+                                    <img src="/assets/images/VectorW.png" alt="" srcset="">
+                                    <h6>Free Consulting</h6>
+                                    <p>Join us for consultatoins</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="feature-box">
+                                <div class="featurelefttopgph1"></div>
+                                <div class="featurelefttopgph2"></div>
+                                <img class="w-100" src="/assets/images/banner3.png" alt="" srcset="">
+                                <div class="feature-caption">
+                                    <img src="/assets/images/VectorW.png" alt="" srcset="">
+                                    <h6>Free Consulting</h6>
+                                    <p>Join us for consultatoins</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="feature-box">
+                                <div class="featurelefttopgph1"></div>
+                                <div class="featurelefttopgph2"></div>
+                                <img class="w-100" src="/assets/images/banner3.png" alt="" srcset="">
+                                <div class="feature-caption">
+                                    <img src="/assets/images/VectorW.png" alt="" srcset="">
+                                    <h6>Free Consulting</h6>
+                                    <p>Join us for consultatoins</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="feature-box">
+                                <div class="featurelefttopgph1"></div>
+                                <div class="featurelefttopgph2"></div>
+                                <img class="w-100" src="/assets/images/banner3.png" alt="" srcset="">
+                                <div class="feature-caption">
+                                    <img src="/assets/images/VectorW.png" alt="" srcset="">
+                                    <h6>Free Consulting</h6>
+                                    <p>Join us for consultatoins</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of feature-wrapper -->
+
+        <!-- we do -->
+    <div class="wedo-wrapper">
+        <div class="wrapper">
+            <div class="container">
+                <div class="row m-auto p-0 wedo-row">
+                    <div class="col-6 com-sm-6 col-md-6">
+                        <img src="/assets/images/banner4.png" alt="" srcset="">
+                    </div>
+                    <div class="col-6 com-sm-6 col-md-6 pl-4">
+                        <p class="block-title wedo-title text-center">What We Do</p>
+                        <br>
+                        <h4 class="text-left text-light">Why Choose Our
+                        Business Agency</h4>
+                        <br>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                        dummy text ever since.</p>
+                        <ul class="wedo-list">
+                            <li>Business & Consulting Agency</li>
+                            <li>Business & Consulting Agency</li>
+                            <li>Business & Consulting Agency</li>
+                        </ul>
+                        <a href="" class="primary-btn">
+                            <span class="slider-int-title">Join With Us</span>
+                            <div class="slider-int-circle"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of we do  -->
+
+    <!-- count  -->
+    <div class="count-wrapper mt-5 mb-5">
+        <div class="wrapper">
+            <div class="container">
+                <div class="row m-auto p-0 count-row">
+                    <div class="col-6 col-sm-6 col-md-3 text-center">
+                        <img src="/assets/images/vector6.png" alt="" srcset="">
+                        <h4>3568</h4>
+                        Satisfied Clients
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 text-center">
+                        <img src="/assets/images/vector7.png" alt="" srcset="">
+                        <h4>3568</h4>
+                        International Awards
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 text-center">
+                        <img src="/assets/images/vector5.png" alt="" srcset="">
+                        <h4>3568</h4>
+                        Expert Team Members
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 text-center">
+                        <img src="/assets/images/vector8.png" alt="" srcset="">
+                        <h4>3568</h4>
+                        Project Complete
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of count -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+        <script src="assets/js/custom.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+
+</body>
+</html>
